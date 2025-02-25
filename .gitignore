@@ -1,0 +1,24 @@
+# Ignora archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignora archivos de configuración local
+.env
+*.local
+
+# Ignora archivos de IDE/Editores
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignora archivos de dependencias (si usas Node.js)
+node_modules/
+
+# Ignora archivos generados automáticamente
+dist/
+build/
+*.log
